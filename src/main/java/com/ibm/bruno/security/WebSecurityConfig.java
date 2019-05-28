@@ -32,14 +32,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	                UsernamePasswordAuthenticationFilter.class);
 	}
 	
-//	@Override
-//	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-//		// cria uma conta default
-//		auth.inMemoryAuthentication()
-//			.withUser("admin")
-//			.password("password")
-//			.roles("ADMIN");
-//	}
 	
 	@Bean
 	public PasswordEncoder passwordEncoder() {
