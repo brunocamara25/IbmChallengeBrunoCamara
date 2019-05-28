@@ -2,12 +2,8 @@ package com.ibm.bruno.controllers;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
 import java.util.List;
 
-import org.apache.tomcat.util.json.JSONParser;
-import org.springframework.http.HttpEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -90,17 +86,3 @@ public class UserController {
    	
    	
 }
-   	
-   	
-//   	List<ResponseItem> response =new ArrayList<ResponseItem>();
-//   	RestTemplate restTemplate = new RestTemplate();
-//   	ResponseEntity<? extends List> result = restTemplate.getForEntity(url, response.getClass());
-   //	String teste = response.getBody().toString();
-//   	
-   
-
-   	
-    
-	
-	
-   
